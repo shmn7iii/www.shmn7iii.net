@@ -3,8 +3,8 @@ import BrandX from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/brand-x.tsx";
 
 export default function Me() {
   return (
-    <div className="mb-6">
-      <div className="relative mb-12">
+    <div className="mb-4">
+      <div className="relative mb-8 lg:mb-14">
         <img
           src="/header.jpeg"
           alt="header"
@@ -13,14 +13,14 @@ export default function Me() {
         <img
           src="/icon.png"
           alt="shmn7iii icon"
-          className="absolute -bottom-12 left-3 w-20 rounded-full ring-2 ring-white lg:w-32"
+          className="absolute -bottom-4 left-3 w-20 rounded-full ring-2 ring-white md:w-32 lg:-bottom-12"
         />
-        <div className="flex justify-end mt-3 me-3">
+        <div className="flex justify-end mt-3">
           <a
             href="https://twitter.com/shmn7iii"
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-2"
+            className="me-3"
           >
             <BrandX aria-hidden="true" color="black" />
           </a>
@@ -28,12 +28,13 @@ export default function Me() {
             href="https://github.com/shmn7iii"
             target="_blank"
             rel="noopener noreferrer"
+            className="me-3"
           >
             <BrandGithub aria-hidden="true" color="black" />
           </a>
         </div>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex items-end gap-2">
         <h3 className="text-2xl font-bold">
           Hayato Shimamura
         </h3>
