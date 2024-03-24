@@ -11,6 +11,7 @@ import * as $links_index from "./routes/links/index.tsx";
 import * as $posts_slug_ from "./routes/posts/[slug].tsx";
 import * as $posts_middleware from "./routes/posts/_middleware.ts";
 import * as $posts_index from "./routes/posts/index.tsx";
+import * as $works_index from "./routes/works/index.tsx";
 
 import { type Manifest } from "$fresh/server.ts";
 
@@ -25,6 +26,7 @@ const manifest = {
     "./routes/posts/[slug].tsx": $posts_slug_,
     "./routes/posts/_middleware.ts": $posts_middleware,
     "./routes/posts/index.tsx": $posts_index,
+    "./routes/works/index.tsx": $works_index,
   },
   islands: {},
   baseUrl: import.meta.url,
