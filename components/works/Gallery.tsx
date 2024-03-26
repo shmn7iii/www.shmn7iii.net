@@ -1,4 +1,5 @@
 import Axe from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/axe.tsx";
+import ArrowUpRight from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/arrow-up-right.tsx";
 
 export interface GalleryItem {
   title: string;
@@ -35,8 +36,8 @@ export default function Gallery({ items }: GalleryProps) {
                     >
                       <h3 class="flex items-center text-lg font-semibold text-gray-900">
                         {item.title}
-                        <span className="ms-2 text-blue-600">
-                          ↗︎
+                        <span className="ms-1 text-blue-600">
+                          <ArrowUpRight size={20} />
                         </span>
                       </h3>
                     </a>

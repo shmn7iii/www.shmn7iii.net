@@ -7,7 +7,7 @@ export default function Header({ active }: Props) {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Works", href: "/works" },
-    { name: "Blog ↗︎", href: "/posts" },
+    { name: "Blog", href: "/posts" },
   ];
 
   return (
