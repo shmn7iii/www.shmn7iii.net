@@ -1,9 +1,16 @@
-type Props = {
+export interface TimelineItem {
   title: string;
-  items: Array<any>;
+  when: string;
+  url: string | null;
+  description: string | null;
+}
+
+type TimelineProps = {
+  title: string;
+  items: TimelineItem[];
 };
 
-export default function Timeline({ title, items }: Props) {
+export default function Timeline({ title, items }: TimelineProps) {
   return (
     <div>
       <h3 className="text-2xl font-bold mb-3">{title}</h3>
