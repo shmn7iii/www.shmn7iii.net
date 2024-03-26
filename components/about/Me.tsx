@@ -11,7 +11,7 @@ export default function Me() {
           className="w-full"
         />
         <img
-          src="/icon.png"
+          src="/icon-shmn7iii.jpg"
           alt="shmn7iii icon"
           className="absolute -bottom-4 left-3 w-20 rounded-full ring-2 ring-white md:w-32 lg:-bottom-12"
         />

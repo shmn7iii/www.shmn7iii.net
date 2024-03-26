@@ -16,10 +16,11 @@ export default function Header({ active }: Props) {
         <a href="/">
           <div className="flex items-center gap-2">
             <img
-              src="/icon.png"
+              src="/icon-shmn7iii.jpg"
               width="26"
               height="26"
               alt="shmn7iii icon"
+              className="rounded-full"
             />
             <div className="text-2xl ml-1 font-bold">
               www.shmn7iii.net
