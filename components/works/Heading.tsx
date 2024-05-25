@@ -3,7 +3,7 @@ export default function Heading() {
     <div className="mb-6">
       <div className="flex items-center">
         <div className="flex items-center">
-          <h1 class="text-3xl font-extrabold me-3">Works</h1>
+          <h1 className="text-3xl font-extrabold me-3">Works</h1>
           <a
             href="https://github.com/shmn7iii"
             target="_blank"
@@ -28,7 +28,7 @@ export default function Heading() {
           </a>
         </div>
       </div>
-      <p class="text-base font-normal text-gray-500 mt-2">
+      <p className="text-base font-normal text-gray-500 mt-2">
         shmn7iii名義とsttnbnb名義があるよ
       </p>
     </div>
