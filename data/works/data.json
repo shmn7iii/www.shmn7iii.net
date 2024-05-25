@@ -105,7 +105,8 @@
     "github": "https://github.com/shmn7iii/Disgot",
     "tag": [
       "Minecraft/Discord",
-      "Java"
+      "Java",
+      "Archived"
     ],
     "description": "マイクラ鯖とDiscord鯖のチャットを同期します。開発終了済み。"
   },
@@ -115,7 +116,8 @@
     "github": "https://github.com/shmn7iii/dryflower",
     "tag": [
       "Discord",
-      "Python"
+      "Python",
+      "Archived"
     ],
     "description": "ChatGPT とおしゃべりする Discord BOT です。開発終了済み。"
   }

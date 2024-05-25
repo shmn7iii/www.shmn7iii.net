@@ -21,7 +21,10 @@ export default function Gallery({ items }: GalleryProps) {
           <div className="flex items-start">
             <div className="w-fit">
               <span class="flex items-center justify-center w-6 h-6 bg-gray-200 rounded-full -start-3 ring-8 ring-white ">
-                <Axe size={16} />
+                <Axe
+                  size={16}
+                  color={item.tag.includes("Archived") ? "gray" : "black"}
+                />
               </span>
             </div>
 
