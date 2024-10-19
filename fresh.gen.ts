@@ -14,7 +14,7 @@ import * as $posts_middleware from "./routes/posts/_middleware.ts";
 import * as $posts_index from "./routes/posts/index.tsx";
 import * as $works_index from "./routes/works/index.tsx";
 
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
