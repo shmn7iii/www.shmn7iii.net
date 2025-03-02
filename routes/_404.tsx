@@ -1,5 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
-import MoodPuzzled from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/mood-puzzled.tsx";
+import Title from "../components/Title.tsx";
 
 export default function Error404() {
   return (
@@ -7,16 +7,12 @@ export default function Error404() {
       <Head>
         <title>404 - Page not found</title>
       </Head>
-      <div>
-        <div className="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-          <MoodPuzzled aria-hidden="true" size={80} />
-          <h1 className="text-4xl font-bold mt-6">
-            404 - Page not found
-          </h1>
-          <p className="my-4">
-            The page you were looking for doesn't exist.
-          </p>
-          <a href="/" className="underline">Go back home</a>
+      <div class="">
+        <Title str="404" />
+
+        <div class="grid gap-2 md:w-[618px] max-w-[618px] font-mono font-thin text-base text-wrap text-[#2d2d2d]">
+          <br />
+          <p>Page not found.</p>
         </div>
       </div>
     </>

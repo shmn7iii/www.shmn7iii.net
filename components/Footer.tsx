@@ -1,32 +1,31 @@
-import BrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/brand-github.tsx";
-
 export default function Footer() {
   return (
-    <footer className="mt-auto w-full">
-      <div className="py-2">
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center">
-            © 2024{" "}
-            <a
-              href="https://github.com/shmn7iii"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
-              shmn7iii
-            </a>
-            . All Rights Reserved.
-          </span>
-          <div className="flex mt-4 sm:justify-center sm:mt-0">
-            <a
-              href="https://github.com/shmn7iii/www.shmn7iii.net"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <BrandGithub aria-hidden="true" color="gray" />
-            </a>
-          </div>
-        </div>
+    <footer class="flex justify-between content-center mt-24 mb-8 font-mono font-thin text-sm text-[#797979]">
+      <p class="">© 2025 shmn7iii.net</p>
+      <div class="flex gap-1">
+        <a
+          href="https://x.com/shmn7iii"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          X
+        </a>
+        <p>・</p>
+        <a
+          href="https://www.instagram.com/shmn7iii/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+        <p>・</p>
+        <a
+          href="https://github.com/shmn7iii"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
       </div>
     </footer>
   );
