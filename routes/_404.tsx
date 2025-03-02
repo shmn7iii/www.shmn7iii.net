@@ -6,22 +6,61 @@ export default function Error404() {
       <Head>
         <title>404 - Page not found</title>
       </Head>
-      <div class="px-4 py-8 mx-auto bg-[#86efac]">
-        <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-          <img
-            class="my-6"
-            src="/logo.svg"
-            width="128"
-            height="128"
-            alt="the Fresh logo: a sliced lemon dripping with juice"
-          />
-          <h1 class="text-4xl font-bold">404 - Page not found</h1>
-          <p class="my-4">
-            The page you were looking for doesn't exist.
-          </p>
-          <a href="/" class="underline">Go back home</a>
-        </div>
+      <div class="md:pt-64 pt-32 pb-32">
+      {/* 横並びBOX */}
+      <div class="md:flex justify-center">
+
+        {/* サイドバー */}
+        <aside class="px-10">
+          {/* ロゴ */}
+          <div class="w-fit pt-2 px-4 mb-6 bg-[#2d2d2d]">
+            <p class="font-josefinsans font-medium text-2xl text-[#e3ded2]">shmn7iii.net</p>
+          </div>
+        </aside>
+
+        {/* メイン */}
+        <main class="px-10">
+          <div class="">
+            {/* タイトル */}
+            <div class="pt-2">
+              <p class="font-josefinsans font-bold text-2xl text-[#2d2d2d]">404</p>
+            </div>
+
+            {/* テキスト */}
+            <div class="grid gap-2 md:w-[618px] max-w-[618px] font-mono font-thin text-base text-wrap text-[#2d2d2d]">
+              <br/>
+              <p>Page not found.</p>
+            </div>
+          </div>
+
+          {/* フッター */}
+          <footer class="flex justify-between content-center mt-24 mb-8 font-mono font-thin text-sm text-[#797979]">
+            <p class="">© 2025 shmn7iii.net</p>
+            <div class="flex gap-1">
+              <a href="https://x.com/shmn7iii" target="_blank" rel="noopener noreferrer">X</a>
+              <p>・</p>
+              <a href="https://www.instagram.com/shmn7iii/" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <p>・</p>
+              <a href="https://github.com/shmn7iii" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </footer>
+        </main>
       </div>
+
+      {/* さてつくん */}
+      <a class="fixed bottom-[-28px] right-[72px] h-[100px] w-[100px] rounded-full border border-[rgb(45,45,45,0.2)] bg-[#d4ddd7] transition duration-150 ease-in-out hover:translate-y-[5px]"
+         href="https://github.com/sttnbnb" target="_blank" rel="noopener noreferrer">
+        <div class="absolute top-[25px] left-[27px] h-[5px] w-[4px] rounded-full bg-black"></div>
+        <div class="absolute top-[25px] left-[45px] h-[5px] w-[4px] rounded-full bg-black"></div>
+      </a>
+
+      {/* まんないくん */}
+      <a class="fixed bottom-[-28px] right-[-10px] h-[100px] w-[100px] rounded-full border border-[rgb(45,45,45,0.2)] bg-[#f7d943] transition duration-150 ease-in-out hover:translate-y-[5px]"
+         href="https://github.com/shmn7iii" target="_blank" rel="noopener noreferrer">
+        <div class="absolute top-[25px] left-[27px] h-[5px] w-[4px] rounded-full bg-black"></div>
+        <div class="absolute top-[25px] left-[45px] h-[5px] w-[4px] rounded-full bg-black"></div>
+      </a>
+    </div>
     </>
   );
 }
