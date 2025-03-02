@@ -1,12 +1,11 @@
+import Title from "../components/Title.tsx";
+
 export default function Home() {
   return (
     <div class="">
-      {/* タイトル */}
-      <div class="pt-2">
-        <p class="font-josefinsans font-bold text-2xl text-[#2d2d2d]">Hayato Shimamura</p>
-      </div>
+      <Title str="Hayato Shimamura" />
 
-      {/* テキスト */}
+      {/* TODO: こういうのコンポーネントにできるのかな、分からん。ブロック引数みたいに渡したい。 */}
       <div class="grid gap-2 md:w-[618px] max-w-[618px] font-mono font-thin text-base text-wrap text-[#2d2d2d]">
         <br/>
         <p>I am a software engineer in Fukuoka, Japan. Currently, I'm working at a FinTech company and developing a payment service with Ruby on Rails.</p>
