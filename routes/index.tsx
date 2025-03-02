@@ -20,10 +20,22 @@ export default function Home() {
         <br />
         <p>Links</p>
         <p class="underline underline-offset-4">
-          <a href="https://blog.shmn7iii.net/">Kaikioki (Tech blog)</a>
+          <a
+            href="https://blog.shmn7iii.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Kaikioki (Tech blog)
+          </a>
         </p>
         <p class="underline underline-offset-4">
-          <a href="https://honjitsu.shmn7iii.net/">Honjitsu (Daily blog)</a>
+          <a
+            href="https://honjitsu.shmn7iii.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Honjitsu (Daily blog)
+          </a>
         </p>
       </div>
     </div>
