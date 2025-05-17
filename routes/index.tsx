@@ -3,7 +3,7 @@ import Title from "../components/Title.tsx";
 export default function Home() {
   return (
     <div class="">
-      <Title str="Hayato Shimamura" />
+      <Title str="Shimamura Hayato" />
 
       {/* TODO: こういうのコンポーネントにできるのかな、分からん。ブロック引数みたいに渡したい。 */}
       <div class="grid gap-2 md:w-[618px] max-w-[618px] font-mono font-thin text-base text-wrap text-[#2d2d2d]">
