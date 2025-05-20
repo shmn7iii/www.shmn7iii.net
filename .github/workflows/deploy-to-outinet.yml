@@ -1,0 +1,31 @@
+name: Deploy to outinet-hosted runner
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: [outinet-hosted-runner]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Stop and remove containers
+        run: |
+          docker rm -f www || true
+
+      - name: Build docker images
+        run: |
+          docker build --build-arg GIT_REVISION=$(git rev-parse HEAD) -t www .
+
+      - name: Run docker containers
+        run: |
+          docker run \
+            -d \
+            --name www \
+            --restart unless-stopped \
+            -p 80:8000 \
+            -e DEPLOY_URL=${{ secrets.DEPLOY_URL }} \
+            www
