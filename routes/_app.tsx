@@ -3,7 +3,7 @@ import { type PageProps } from "$fresh/server.ts";
 export default function App({ Component }: PageProps) {
   const url = Deno.env.get("DEPLOY_URL");
   const ogpImage = Deno.env.get("DEPLOY_URL") + "/ogp.png";
-  const title = "www.shmn7iii.net";
+  const title = "www.shmn7iii.ink";
   const description = "A portfolio site.";
 
   return (
@@ -30,7 +30,10 @@ export default function App({ Component }: PageProps) {
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body class="bg-[#e3ded2]">
         <Component />

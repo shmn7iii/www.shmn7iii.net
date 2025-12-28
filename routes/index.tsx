@@ -21,7 +21,7 @@ export default function Home() {
         <p>Links</p>
         <p class="underline underline-offset-4">
           <a
-            href="https://blog.shmn7iii.net/"
+            href="https://blog.shmn7iii.ink/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,7 +30,7 @@ export default function Home() {
         </p>
         <p class="underline underline-offset-4">
           <a
-            href="https://honjitsu.shmn7iii.net/"
+            href="https://honjitsu.shmn7iii.ink/"
             target="_blank"
             rel="noopener noreferrer"
           >
