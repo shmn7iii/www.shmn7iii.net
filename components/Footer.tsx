@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer class="flex justify-between content-center mt-24 mb-8 font-mono font-thin text-sm text-[#797979]">
-      <p class="">© 2025 shmn7iii.net</p>
+      <p class="">© 2025 shmn7iii.ink</p>
       <div class="flex gap-1">
         <a
           href="https://x.com/shmn7iii"
